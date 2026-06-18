@@ -24,6 +24,7 @@ class Edit < Formula
 
   def install
     bin.install "edit"
+    doc.install "LICENSE", "README.md"
   end
 
   test do
