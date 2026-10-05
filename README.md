@@ -22,6 +22,19 @@ brew install edit
 
 Supported platforms: macOS (Apple Silicon), Linux (x86_64 / arm64).
 
+### `midplay`
+
+A terminal MIDI file player — [mikuta0407/midplay](https://github.com/mikuta0407/midplay). Plays to an
+Audio Unit instrument or a CoreMIDI destination on macOS, FluidSynth with a SoundFont or an ALSA
+sequencer port on Linux.
+
+```sh
+brew install mikuta0407/apps/midplay
+```
+
+Supported platforms: macOS (Apple Silicon), Linux (x86_64 / arm64). On Linux it needs the system's
+ALSA and FluidSynth libraries and a SoundFont (`sudo apt install libasound2 libfluidsynth3 fluid-soundfont-gm`).
+
 ## How releases are published
 
 The formula is updated automatically by a workflow in the
