@@ -1,6 +1,6 @@
 cask "secon" do
-  version "0.1.1"
-  sha256 "6d6410746e7ed682cab01ef5258cc4498f9b8ccdf3acaef6ec250a6517328bc8"
+  version "0.2.0"
+  sha256 "d38706fa867d730a761f45747c2d56783aad63fb3fd33e30461bdd548d5eba93"
 
   url "https://github.com/mikuta0407/secon/releases/download/v#{version}/secon-v#{version}-macos-arm64.tar.gz"
   name "secon"
