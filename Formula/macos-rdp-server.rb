@@ -28,10 +28,16 @@ class MacosRdpServer < Formula
       Then allow ~/.macos-rdp/bin/macos-rdp-daemon in System Settings >
       Privacy & Security > Screen Recording and Accessibility.
 
+      Restart it:
+        launchctl kickstart -k gui/$(id -u)/com.macosrdp.agent
+
       To remove the agent:
         launchctl bootout gui/$(id -u)/com.macosrdp.agent
         rm ~/Library/LaunchAgents/com.macosrdp.agent.plist
+        security delete-keychain ~/.macos-rdp/signing/macos-rdp.keychain-db
         rm -rf ~/.macos-rdp
+
+      More, including running a Mac headless: https://github.com/mikuta0407/macos-rdp-server#readme
     CAVEATS
   end
 
