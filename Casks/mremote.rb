@@ -4,7 +4,7 @@ cask "mremote" do
 
   url "https://github.com/mikuta0407/mRemote/releases/download/v#{version}/mRemote-v#{version}-macos-arm64.zip"
   name "mRemote"
-  desc "RDP client with JIS keyboard and Mac-to-Mac (MACRDPX) support"
+  desc "RDP client with JIS keyboard support and the MACRDPX extensions"
   homepage "https://github.com/mikuta0407/mRemote"
 
   depends_on arch: :arm64
