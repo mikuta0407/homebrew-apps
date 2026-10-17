@@ -1,10 +1,10 @@
 cask "mremote" do
-  version "0.1.1"
-  sha256 "ed34275a30b8bfb2b09dd48537f8286950c16483d1cd1c5bd049cc5a1a45b5a3"
+  version "0.2.0"
+  sha256 "3841da2e94b60294fbc344534ce1fbcc662213d9375f32bf8d3894605c4e6b8c"
 
   url "https://github.com/mikuta0407/mRemote/releases/download/v#{version}/mRemote-v#{version}-macos-arm64.zip"
   name "mRemote"
-  desc "RDP client with JIS keyboard support and the MACRDPX extensions"
+  desc "RDP and SSH client with JIS keyboard support and the MACRDPX extensions"
   homepage "https://github.com/mikuta0407/mRemote"
 
   depends_on arch: :arm64
