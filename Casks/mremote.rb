@@ -1,6 +1,6 @@
 cask "mremote" do
-  version "0.1.0"
-  sha256 "387837dcc0a76e95fd385b8baca62c98804d38e2405d88d31e0062faac224c95"
+  version "0.1.1"
+  sha256 "ed34275a30b8bfb2b09dd48537f8286950c16483d1cd1c5bd049cc5a1a45b5a3"
 
   url "https://github.com/mikuta0407/mRemote/releases/download/v#{version}/mRemote-v#{version}-macos-arm64.zip"
   name "mRemote"
