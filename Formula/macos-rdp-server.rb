@@ -1,8 +1,8 @@
 class MacosRdpServer < Formula
   desc "RDP server for macOS with JIS keyboard and Mac-to-Mac (MACRDPX) support"
   homepage "https://github.com/mikuta0407/macos-rdp-server"
-  url "https://github.com/mikuta0407/macos-rdp-server/releases/download/v0.2.0/macos-rdp-server-v0.2.0-macos-universal.tar.gz"
-  sha256 "630c87bd196410eac33ab4d8ac10c05fb629f97e61b86806d995a4f8048fb9bf"
+  url "https://github.com/mikuta0407/macos-rdp-server/releases/download/v0.2.1/macos-rdp-server-v0.2.1-macos-universal.tar.gz"
+  sha256 "3e0062c252c65df9f31a3614e325ecff9f60e27ebd98de3a163b851bd7243639"
   license "MIT"
 
   depends_on macos: :sonoma
