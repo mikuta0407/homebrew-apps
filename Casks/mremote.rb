@@ -1,6 +1,6 @@
 cask "mremote" do
-  version "0.5.0"
-  sha256 "fa6b6d1b003311d651144746de7549c03e86e90865060ee8c49180526b2bb72f"
+  version "0.5.1"
+  sha256 "16f7ffe80df50f6c523f3b3b985b37e07f6739fcc242a62dbbdfdb326225ae62"
 
   url "https://github.com/mikuta0407/mRemote/releases/download/v#{version}/mRemote-v#{version}-macos-arm64.zip"
   name "mRemote"
@@ -21,13 +21,18 @@ cask "mremote" do
         must_succeed:   false
   end
 
-  uninstall quit: "com.mikuta0407.mRemote"
+  uninstall quit: "net.mikuta0407.mRemote"
 
+  # com.mikuta0407.mRemote: the bundle ID before 0.5.1
   zap trash: [
     "~/Library/Application Support/mRemote-profiles.json",
     "~/Library/Caches/com.mikuta0407.mRemote",
+    "~/Library/Caches/net.mikuta0407.mRemote",
     "~/Library/HTTPStorages/com.mikuta0407.mRemote",
+    "~/Library/HTTPStorages/net.mikuta0407.mRemote",
     "~/Library/Preferences/com.mikuta0407.mRemote.plist",
+    "~/Library/Preferences/net.mikuta0407.mRemote.plist",
     "~/Library/Saved Application State/com.mikuta0407.mRemote.savedState",
+    "~/Library/Saved Application State/net.mikuta0407.mRemote.savedState",
   ]
 end
