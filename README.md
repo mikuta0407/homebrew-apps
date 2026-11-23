@@ -35,6 +35,16 @@ brew install mikuta0407/apps/midplay
 Supported platforms: macOS (Apple Silicon), Linux (x86_64 / arm64). On Linux it needs the system's
 ALSA and FluidSynth libraries and a SoundFont (`sudo apt install libasound2 libfluidsynth3 fluid-soundfont-gm`).
 
+### `hiddendesktop` (cask)
+
+Hide desktop icons and widgets from the menu bar — [mikuta0407/HiddenDesktop](https://github.com/mikuta0407/HiddenDesktop).
+
+```sh
+brew install --cask mikuta0407/apps/hiddendesktop
+```
+
+Supported platforms: macOS 13+ (Apple Silicon / Intel).
+
 ## How releases are published
 
 The formula is updated automatically by a workflow in the
