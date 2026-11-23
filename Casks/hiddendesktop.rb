@@ -1,6 +1,6 @@
 cask "hiddendesktop" do
-  version "1.0.0"
-  sha256 "614c0d39842d489b45b5cada99b963253d027b44d64864d10b814824f3fd81b2"
+  version "1.0.1"
+  sha256 "7c1008bef6948fb41ce755365d31cf6c1a4ef68c3ac2e99ee478776eedbbcb5a"
 
   url "https://github.com/mikuta0407/HiddenDesktop/releases/download/v#{version}/HiddenDesktop-v#{version}-macos-universal.zip"
   name "HiddenDesktop"
